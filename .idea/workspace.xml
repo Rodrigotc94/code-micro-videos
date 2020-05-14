@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf268bf5-0e60-4837-81ea-a8af24690604" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +123,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1baGoely6PARlVy8eEPXywGMbDU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -136,6 +139,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="PHPUnit.tests">
@@ -169,6 +173,11 @@
       <workItem from="1588951242197" duration="99000" />
       <workItem from="1588951364637" duration="104000" />
       <workItem from="1588951508561" duration="6958000" />
+      <workItem from="1589030484837" duration="5482000" />
+      <workItem from="1589052848945" duration="587000" />
+      <workItem from="1589401248313" duration="1941000" />
+      <workItem from="1589412248195" duration="998000" />
+      <workItem from="1589493032595" duration="271000" />
     </task>
     <servers />
   </component>
@@ -176,6 +185,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="312" y="79" width="732" height="644" key="#Inspections" timestamp="1589037742994">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="312" y="79" width="732" height="644" key="#Inspections/0.27.1366.741@0.27.1366.741" timestamp="1589037742994" />
     <state x="309" y="27" width="751" height="741" key="#tests" timestamp="1588893103155">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -188,9 +201,13 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="172" y="31" width="1022" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1588894149266" />
-    <state x="408" y="311" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1588898017544">
+    <state x="347" y="174" key="run.anything.popup" timestamp="1589053351732">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="408" y="311" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.27.1366.741@0.27.1366.741" timestamp="1588898017544" />
+    <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1589053351732" />
+    <state x="408" y="311" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1589033736921">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="408" y="311" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.27.1366.741@0.27.1366.741" timestamp="1589033736921" />
   </component>
 </project>
