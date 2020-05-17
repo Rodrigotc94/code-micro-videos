@@ -3,19 +3,19 @@
 namespace Tests\Unit;
 
 use App\Models\Category;
+use App\Models\Genre;
 use App\Models\Traits\Uuid;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use Illuminate\Foundation\Testing\DatabaseMigrations;
 use PHPUnit\Framework\TestCase;
 
 class CategoryTest extends TestCase
 {
-    /**
-     * A basic unit test example.
-     *
-     * @return void
-     */
+    use DatabaseMigrations;
+
     public function testFillableAttribute()
     {
+        Genre::create(['name' => 'teste']);
         $fillable = ['name', 'description', 'is_active'];
         $category = new Category();
         $this->assertEquals($fillable, $category->getFillable());
