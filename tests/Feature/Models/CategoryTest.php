@@ -88,14 +88,11 @@ class CategoryTest extends TestCase
 
     public function testDelete(){
         $category=factory(Category::class)->create();
-        $this->assertNotNull(Category::withTrashed()->find($category));
         $category->delete();
         $this->assertNull(Category::find($category->id));
-        //porque esse comando nao e valido para teste, utilizei ele antes do delete e me retornou como se o $category ja estivesse sido deletado
-        //$this->assertNotNull(Category::withTrashed()->find($category));
 
         $category->restore();
-        $this->assertNull(Category::find($category->delete_at));
+        $this->assertNotNull(Category::find($category->id));
     }
 
 

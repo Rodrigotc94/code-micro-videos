@@ -17,7 +17,6 @@ class CategoryTest extends TestCase
         $this->category = new Category();
     }
 
-
     public function testIfUseTraits()
     {
         $traits = [
