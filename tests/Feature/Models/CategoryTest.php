@@ -37,6 +37,7 @@ class CategoryTest extends TestCase
             'name' => 'test1'
         ]);
         $category->refresh();//para o model ser atualizado
+        $this->assertEquals(36,strlen($category->id));
         $this->assertEquals('test1', $category->name);
         $this->assertNull($category->description);
         $this->assertTrue($category->is_active);
@@ -84,6 +85,19 @@ class CategoryTest extends TestCase
             $this->assertEquals($value, $category->{$key});
         }
     }
+
+    public function testDelete(){
+        $category=factory(Category::class)->create();
+        $this->assertNotNull(Category::withTrashed()->find($category));
+        $category->delete();
+        $this->assertNull(Category::find($category->id));
+        //porque esse comando nao e valido para teste, utilizei ele antes do delete e me retornou como se o $category ja estivesse sido deletado
+        //$this->assertNotNull(Category::withTrashed()->find($category));
+
+        $category->restore();
+        $this->assertNull(Category::find($category->delete_at));
+    }
+
 
 
 }
