@@ -10,7 +10,7 @@ class CategoryController extends BasicCrudController
 {
     private $rules = [
         'name' => 'required|max:255',
-        'description'=> 'nullable',
+        'description' => 'nullable',
         'is_active' => 'boolean',];
 
     protected function model()
@@ -27,6 +27,7 @@ class CategoryController extends BasicCrudController
     {
         return $this->rules;
     }
+}
 
 //    public function index()
 //    {
@@ -60,4 +61,3 @@ class CategoryController extends BasicCrudController
 //        return response()->noContent(); // 204 - No content
 //    }
 
-}
