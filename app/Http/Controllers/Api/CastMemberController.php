@@ -10,11 +10,11 @@ class CastMemberController extends BasicCrudController
 {
     private $rules;
 
-    public function _construct()
+    public function __construct()
     {
         $this->rules = [
             'name' => 'required|max:255',
-            'type' => 'required|in:' . implode(',', [CastMember::TYPE_ACTOR, CastMember::TYPE_DIRECTOR])
+            'type' => 'required|in:' . implode(',', [CastMember::TYPE_ACTOR, CastMember::TYPE_DIRECTOR]),
         ];
     }
 
